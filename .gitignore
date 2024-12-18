@@ -1,1 +1,71 @@
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+/node_modules/
+/dist/
+/build/
+/.venv/
+/coverage/
+
+# Environment variables
+.env
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.~lock.*
+*.bak
+*.swp
+*.tmp
+*.orig
+
+# Testing
+/coverage/
+*.lcov
+*.spec.js
+*.test.js
+/junit.xml
+
+# Build directories
+/.next/
+/out/
+/storybook-static/
+.nuxt/
+.sapper/
+.cache/
+
+# Temp files
+tmp/
+temp/
+
+# Other files
+*.lock
+*.gz
+*.log
+*.zip
+
+# Redux DevTools Extensions (Chrome/Firefox extensions can generate temporary files)
+redux-devtools-extension.log
+redux-devtools-extension.json
